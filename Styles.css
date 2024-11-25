@@ -1,0 +1,121 @@
+:root{
+    --color-primary-dark:#011C44;
+    --color-brand:blue;
+}
+
+/*Base */
+*{
+    box-sizing: border-box;
+}
+body{
+    color: var(--color-primary-dark);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1,5;
+}
+ul, li{
+    list-style-type: none;
+    
+}
+h1 {
+    color: var(--color-brand);
+}
+.beanty-zone {
+    color:var(--color-brand);
+    font-weight: 700px;
+}
+.about-beauty{
+    text-align: left;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0,8;
+    width: 529px;
+    height: 228px;
+}
+.fon{
+    background: linear-gradient(38.2deg, rgba(43, 127, 255, 0.2) 39.74%, rgba(43, 127, 255, 0) 54.16%, rgba(43, 127, 255, 0) 66.66%);
+}
+.menu{
+    display: inline-block;
+    background-color: #FFFFFF40;
+   
+}
+/*Button */
+.button{
+    color: aliceblue;
+    background-color: #2B7FFF;
+    font-size: 18px;
+    font-weight: 219px;
+    border: 16px;
+    border-radius: 32px;
+}
+.button:hover{
+    background-color:var(--color-brand);
+    cursor:pointer
+}
+.button:focus {
+    background-color:var(--color-brand);
+}
+/*Link */
+.link{
+    color:var(--color-primary-dark)
+}
+.link.hover {
+    color: var(--color-primary-dark);
+    font-weight: 700;
+}
+/*HEX value - перетин синього червоного і зеленого кольорів*/
+.about-zone{
+    text-align:left;
+    text-transform: capitalize;
+    word-spacing: 4px;
+}
+.hero-title{
+    color:var(--color-primary-dark)
+    font-size 22px;
+}
+.hero-title.accent{
+    color:var(--color-brand);
+}
+.advantes-list{
+    color: var(--color-brand);
+    background-color: var(--color-primary-dark);
+}
+/*whoweare-section*/
+.about-section-klinika{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 1,2;
+}
+.about-zone span{
+    text-transform: capitalize;
+}
+.people-what{
+    text-align:center;
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 1,2;
+}
+.procedures-oure,.contakts-such{
+    text-align:center;
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 1,2;
+}
+.whoweare-zone{
+    text-align:left;
+    font-size: 64px;
+    font-weight: 700px;
+    width: 529px;  
+    height: 148px;
+}
+.whoweare-face{
+    text-align:left;
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 1,7;
+    width: 709px;  
+    height: 76px;
+}

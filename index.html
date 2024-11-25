@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!---Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!---Підключення CSS, styles-->
+    <link rel="stylesheet" href="./Styles.css" />
+  </head>
+  <body>
+    <header>
+      <!--logo and menu-->
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="./index.html">Beauty Zone</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a class="link" href="#about-section"
+              ><span class="beanty-zone"> Про нас</span></a
+            >
+          </li>
+          <li>
+            <a href="#whoweare-section" class="link">Хто ми</a>
+          </li>
+          <li><a href="#procedures" class="link"> Процедури</a></li>
+          <li><a href="#contakts" class="link">Контакти</a></li>
+          <li>
+            <!---іконка телефону-->
+            <a href="tel:+380960000007">
+              <img
+                src="./Image/Iconkatelefon.svg"
+                alt="іконка телефонна трубка"
+              />
+            </a>
+          </li>
+         <li>
+            <a href="#">
+              <img src="./Image/IconkaFb.svg" alt="іконка фейсбук" />
+            </a>
+            <!---іконка фейсбук-->
+          </li>
+          <li>
+            <a href="#">
+              <img src="./Image/Iconkainstagram.svg" alt="іконка інстаграм" />
+            </a>
+            <!---іконка інстаграм-->
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="fon">
+      <section id="about-section">
+        <h3 class="about-section-klinika">Косметологічна клініка</h3>
+        <h1 class="about-beauty">Beauty Zone</h1>
+        <!-- замовити дзвінок-->
+        <h3><button type="button" class="button">Замовити дзвінок</button></h3>
+        <h5>Запишись та отримай безкоштовну консультацію нашого косметолога</h5>
+      </section>
+      <section id="whoweare-section">
+        <h2 class="whoweare-zone">Перевтілюйтесь в <span class="beanty-zone">Beanty Zone</span></h2>
+        <p class="whoweare-face">
+          Наша косметологічна клініка пропонує вам професійні послуги з догляду
+          за шкірою обличчя та тіла.
+        </p>
+        <p class="whoweare-face">
+          B <b class="about-zone"> beauty zone</b> ми гарантуємо найвищі
+          стандарти якості та приємний сервіс. Наші косметологічні процедури та
+          препарати допоможуть вам підтримувати свою красу та молодість. З нами
+          краса назавжди!
+        </p>
+        <img
+          src="./Image/Face1.jpg"
+          alt="Зображення обличчя жінки, контур у вигдяді стрілки на щоках. Щоки зона ліфтингу"
+        />
+        <img
+          src="./Image/Face2.jpg"
+          alt="Зображення обличчя жінки контур у вигляді стрілки на шиї. Шия зона ліфтингу"
+        />
+      </section>
+      <section id="people">
+        <!--article сторінки що можна перевикористати-->
+        <h2 class="people-what">Чому люди <span class="beanty-zone">обирають нас?</span></h2>
+        <ul>
+          <li>
+            <article>
+              <p>
+                Всі наші косметологи мають вищу медичну освіту та стаж роботи
+                від 5 років
+              </p>
+            </article>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <article>
+              <p>
+                Використовуємо тільки професійне обладнання та косметику,
+                перевірену часом
+              </p>
+            </article>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <article>
+              <p>
+                Наша мета - підкреслити переваги та приховати недоліки, а не
+                переробити
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section id="procedures">
+        <h2 class="procedures-oure">Наші <span class="beanty-zone">процедури</span></h2>
+        <ul>
+          <li>
+            <article>
+              <h3>Маски для обличчя</h3>
+            </article>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <article><h3>Ботокс</h3></article>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <article>Масаж обличчя</article>
+          </li>
+        </ul>
+      </section>
+      <section id="contakts">
+        <h2 class="contakts-such">Як нас <span class="beanty-zone">знайти?</span></h2>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.940062924991!2d30.515548610561744!3d50.442217071472086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCDQo9C60YDQsNGX0L3QsCwgMDIwMDA!5e0!3m2!1suk!2spl!4v1732021810007!5m2!1suk!2spl"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <h3>Запишіться безкоштовно та отримай подарунок</h3>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <!---- logo and menu-->
+        <ul>
+          <li>
+            <a href="./index.html">Beauty Zone</a>
+          </li>
+
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Хто ми</a></li>
+          <li><a href="#"> процедури</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul>
+          <li>
+            <a href="tel:+380960000007">+ 38 (096) 000 00 07</a>
+          </li>
+          <li>
+            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://g.co/kgs/FSmQxTV" target="blank"
+              >Україна, м. Київ, вул. Тараса Шевченка 5</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./Image/Iconkatelefon.svg"
+                alt="іконка телефонна трубка"
+              />
+            </a>
+            <!---іконка телефону-->
+          </li>
+          <li>
+            <a href="#">
+              <img src="./Image/IconkaFb.svg" alt="іконка фейсбук" />
+            </a>
+            <!---іконка фейсбук-->
+          </li>
+          <li>
+            <a href="#">
+              <img src="./Image/Iconkainstagram.svg" alt="іконка інстаграм" />
+            </a>
+            <!---іконка інстаграм-->
+          </li>
+        </ul>
+        <a href="#" target="blank">Політика конфіденційності</a>
+        <p>© 2022 Дані захищені</p>
+      </address>
+    </footer>
+  </body>
+</html>
